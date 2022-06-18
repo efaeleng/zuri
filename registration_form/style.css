@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins';
+    font-size: 16px;
+    padding: 1rem 1.5rem;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4.5rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.text-section {
+    color: white;
+    text-align: center;
+}
+.text-section h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+
+.trial-banner {
+    background: hsl(248, 32%, 49%);
+    padding: 1rem 5rem;
+    border-radius: 0.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.8rem;
+    box-shadow: 0px 5px 0px #b17095;
+}
+
+.trial-banner span {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+form {
+    background: white;
+    padding: 1.2rem;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    box-shadow: 0px 5px 0px #c55f63;
+    position: relative;
+}
+
+input {
+    border-radius: 0.4rem;
+    padding: 20px 10px;
+    width: 100%;
+    border: 1px solid #d1cfcf;
+}
+ 
+input:required:invalid {
+    outline: 1px solid hsl(0, 100%, 74%);
+    background-image: url('/images/icon-error.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content-box;
+}
+
+
+input:invalid+span {
+    display: inline;
+    text-align: right;
+    color: hsl(0, 100%, 74%);
+    font-size: 13px;
+    margin-bottom: 0.4rem;
+    font-style: italic;
+
+}
+
+button {
+    background: hsl(154 59% 51%);
+    padding: 1.2rem 3rem;
+    border-radius: 0.5rem;
+    border: none;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0px 5px 0px #32b27d;
+    cursor: pointer;
+}
+
+
+form p {
+    font-size: 13px;
+    color: #c1c1c7;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.terms {
+    color: hsl(0, 100%, 74%);
+}
+
+.fname-icon {
+    position: relative;
+}
+
+@media screen and (min-width: 992px) { 
+
+    body {
+        background-image: url(/images/bg-intro-desktop.png);
+        margin: 4rem 7rem;
+    }
+
+    .main-container {
+        display: grid;
+        grid-template-columns: 1fr 55%;
+        /* justify-content: center; */
+    }
+
+    .text-section {
+        text-align: start;
+    }
+
+    .text-section h1 {
+        margin: 0;
+    }
+
+    .text-section p {
+        margin-top: 2rem;
+    }
+
+    form {
+        margin: 0;
+    }
+}

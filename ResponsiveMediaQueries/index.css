@@ -1,0 +1,164 @@
+/* importing font style*/
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend&family=Lexend+Deca&family=Open+Sans:wght@400;700&family=Poppins:ital,wght@1,600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+}
+
+
+
+/*Media Query*/
+@media screen and (max-width: 768px) {
+    nav {
+        display: flex;
+        background-color:green;
+        // margin-top: -10px;
+    }
+    nav ul {
+        display: flex;
+        align-items: center;
+        padding: .2rem;
+        padding: .2 .5rem;
+    }
+    nav ul li {
+        display: flex;
+    }
+  
+   
+    
+    a, h1, h2, h3, h6, p {
+        text-align: center;
+        text-decoration: none;
+    }
+
+    button {
+        white-space: nowrap;
+        padding: .5em 1em;
+        font-family: 'open sans', sans-serif;
+        font-size: 1em;
+        font-weight: 700;
+        border-radius: 50px;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-image: url('images/bg-hero-mobile.svg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .illustration-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em 2em;
+        // margin: 0 auto;
+        // width: 80%;
+    }
+     h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        // color: #fff;
+        margin-bottom: 1em;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+
+
+
+
+
+    footer {
+        // display: flex;
+        // flex-direction: column;
+        background-color: hsl(192, 100%, 9%);
+        color: #fff;
+    
+    }
+
+    footer p {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 1em;
+        text-align:left 
+    }
+
+    .huddle-logo {
+        margin-top: 8em;
+        padding:  0 1.2em;
+    }
+
+    footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+   
+    .social-medias ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 2em;
+    }
+    
+    .social-medias ul  li {
+        list-style: none;
+        display: flex;   // display: inline-block;
+        margin: auto 0.4em;
+        padding: .4em;
+        border-radius: 100%;
+        border: 2px solid #fff;
+        margin-bottom: 1.5em;
+
+    }
+    #footer-p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.2em;
+    }
+
+
+
+
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
