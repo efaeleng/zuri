@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive-MediaQuery</title>
-    <link rel="stylesheet" href="/index.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <title>Responsive page</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
@@ -16,34 +17,60 @@
                         <img src="images/logo.svg" alt="huddle logo" width="100rem">
                     </a>
                 </li>
-                <button id="navbtn">
-                    <a href="#">try it free</a></li>
+                <li>
+                    <a href="https://efaeleng.github.io/registration_form-/" style="color: blue; font-size: 1.2rem ; font-weight: bold;" target="_blank">RegFormTask</a>
+                </li>
+                <li>
+                    <button id="navbtn">
+                        <a href="#">try it free</a>
+                </li>
                 </button>
+                </li>
+    
             </ul>
+
         </nav>
         
-        <h2>
-            building the community your fans will love
-        </h2>
+        <div class="header-row">
+            <div class="header-left-article">
+                <div class="h2">
+                    <h2>
+                        building the community your fans will love
+                    </h2>
+                </div>
+                <div class="first-p">
+                    <p>
+                        Huddle re-imagines the way we build communities.
+                        You have a voice, but so does your audience.
+                        Create connections with your users as you engage in genuine discussion.
+                    </p>
+                </div>
+                <div class="btn2">
+                    <button>
+                        get started for free
+                    </button>
+                </div>
+            
+            </div>
+            <div class="illustration-mobile">
+                <img src="images/illustration-mockups.svg" alt="illustration-mockups.svg " height="" width="320rem" class="img1"/>
 
-        <p>
-            Huddle re-imagines the way we build communities.
-            You have a voice, but so does your audience.
-            Create connections with your users as you engage in genuine discussion.  
-        </p>
-        <button>
-            Get Started For Free
-        </button>
-        <div class="illustration-mobile">
-            <img src="images/illustration-mockups.svg" alt="illustration-mockups.svg " height="" width="320rem">
+                <img src="images/illustration-mockups.svg" alt="illustration-mockups.svg " class="img2"  style="height: 80vh; width: 120vw;"/>
+
+
+            </div>
+
         </div>
+       
+      
+        
     </header>
 
-
+    <!-- The Main section -->
     <main>
         <section class="grow-2gether">
             <div>
-                <img src="/images/illustration-grow-together.svg" alt="grow-together.svg" height="" width="250rem">
+                <img src="images/illustration-grow-together.svg" alt="grow-together.svg" height="" width="250rem">
             </div>
             <div>
                 <h3>
@@ -52,10 +79,12 @@
                 <p>
                    Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversions you miss out on with a feedback form.
                 </p>
+            </div>
         </section> 
+
         <section class="flowing-converse">
             <div>
-                <img src="/images/illustration-flowing-conversation.svg" alt="flowing-conversation.svg" height="" width="250rem">
+                <img src="images/illustration-flowing-conversation.svg" alt="flowing-conversation.svg" height="" width="250rem">
             </div>
             <div>
                 <h3>
@@ -68,13 +97,13 @@
         </section>
         <section class="your-users">
             <div>
-                <img src="/images/illustration-your-users.svg" alt="your users.svg" height="" width="250rem">
+                <img src="images/illustration-your-users.svg" alt="your users.svg" height="" width="250rem">
             </div>
             <div>
                 <h3>
                     Your Users
                 </h3>
-                <p>
+                <p id="your-users-p">
                     it takes no time at all to integrate huddle with you app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.
                 </p>
             </div>
@@ -83,7 +112,7 @@
 
     <!-- Pre-Footer -->
     <section class="bfore-footer">
-        <div>
+        <div class="prefooter-div">
             <h3>
                 Ready To Build Your Community?
             </h3>
@@ -94,59 +123,85 @@
     </section>
 
 
-
-    <footer>
+    <!-- FOOTER -->
     
-            <img src="images/logo-white.svg" alt="Huddle logo" height="40vh" width="100rem" class="huddle-logo" >
-        
-        <div>
-            <img src="images/icon-location.svg" alt="location.icon">
-            <p id="p-footer">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            </p>
-            <img src="/images/icon-phone.svg" alt="phone icon">
-            <p>
-                +234 807 0714 328
-            </p>
-            <img src="/images/icon-email.svg" alt="email icon">
-            <p>
-                vnongu@gmail.com
-            </p>
-        </div>
-        <div class="links">
-            <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">What We Do</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Career</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </div>  
-        <div class="social-medias">
-            <ul>
-                <li>
-                    <a href="#">
-                        <img src="images/facebook-logo-white.svg" alt="facebook.svg" width="20rem" height="20rem">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="images/twitter-logo-white.svg" alt="twitter.svg" width="20rem" height="20rem">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="images/white-instagram-transparent-logo.svg" alt="instagram.svg" width="20rem" height="20rem">
-                    </a>
-                </li>
-            </ul>
+    <footer>
+        <div class="footer-div">
+            <div class="hud-logo">
+                <img src="images/logo-white.svg" alt="Huddle logo" height="30%" width="30%" class="huddle-logo" >
+            </div>
+            <div class="footer-row">
+                <div class="address">
+                    <div class="location-logo">
+                
+                        <img src="images/icon-location.svg" alt="location.icon" height="25rem">
+                
+                        <p id="p-footer">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div class="phone">
+                        <img src="images/icon-phone.svg" alt="phone icon">
+                        <p>
+                            +234 808 361 8577
+                        </p>
+                    </div>
+                    <div class="email">
+                        <img src="images/icon-email.svg" alt="email icon">
+                        <p>
+                            efaeleng@proton.me
+                        </p>
+                    </div>
+                </div>
+                <div class="our-details">
+                    <div class="our-details-1">
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">What We Do</a></li>
+                            <li><a href="#">FAQ</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="our-details-2">
+                        <ul>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="social-medias">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="images/facebook-logo-white.svg" alt="facebook.svg" width="25rem" height="20rem">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/twitter-logo-white.svg" alt="twitter.svg" width="25rem" height="20rem">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/white-instagram-transparent-logo.svg" alt="instagram.svg" width="25rem" height="20rem">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            <!-- copy right -->
+            <div class="copyright">
+                <p id="footer-p">
+                    &copy copyright; 2018 Huddle. All rights reserved.
+                </p>
+            
+            </div>
 
         </div>
-        <p id="footer-p">
-            &copy copyright; 2018 Huddle. All rights reserved.
-        </p>
-        <br>
     </footer>
 </body>
 </html>
