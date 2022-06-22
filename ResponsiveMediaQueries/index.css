@@ -100,8 +100,8 @@ header {
 .btn2 button {
     color: white;
     padding: 0.6rem 3rem;
-    background-color: hsl(322, 100%, 66%);
-    border: hsl(322, 100%, 66%) solid 1px;
+    background-color: #ff52bf;
+    border: #ff52bf solid 1px;
     box-shadow: 0px 0px 10px rgba(126, 125, 125, 0.5);   
 }
 
@@ -520,5 +520,4 @@ footer a {
         padding: 1rem 3rem;
         margin-bottom: 1rem;
     }
-
 }
