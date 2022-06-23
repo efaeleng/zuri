@@ -1,18 +1,23 @@
 // Basic JS Calculator
 
+let result = 0
 
 const addition =(a, b)=>{
-  return a + b
+  result = a + b
+  return `The result is: ${result}`
 }
 const subtraction=(a, b)=>{
-  return a - b
+  result = a - b
+  return `The result is: ${result}`
 }
 const multiplication=(a, b)=>{
-  return a * b
+  result = a * b
+  return `The result is: ${result}`
 }
 
 const division=(a, b)=>{
-  return a / b
+  result = a / b
+  return `The result is: ${result}`
 }
 
 while (true) {
